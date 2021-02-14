@@ -122,7 +122,7 @@ namespace uaaloo.Controllers
             Console.WriteLine("Tiempo tardado en guardar cliente: {0}", stopwatch.Elapsed);
 
             // Devolver lista de clientes
-            return Ok(oCliente.Id);
+            return Ok(oCliente);
 
 
         }
