@@ -1,0 +1,133 @@
+{
+	"info": {
+		"_postman_id": "cfb7d259-5ec7-411e-a099-ae972f8fa747",
+		"name": "CSharpUaaloo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "obtenerClientes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/cliente",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"cliente"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "agregarCliente",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Id",
+						"value": "4",
+						"type": "text"
+					},
+					{
+						"key": "Nombre",
+						"value": "Zla",
+						"type": "text"
+					},
+					{
+						"key": "Apellido",
+						"value": "Ape",
+						"type": "text"
+					},
+					{
+						"key": "Dire",
+						"value": "ffff",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n    { \"Id\": 4, \"Nombre\": \"Umberto\", \"Apellido\": \"Velez\",  \"Direccion\": \"Av Siempreviva\"}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/cliente",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"cliente"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "obtenerClientePorID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/cliente/obtenerClientePorID?Id=3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"cliente",
+						"obtenerClientePorID"
+					],
+					"query": [
+						{
+							"key": "Id",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eliminarCliente",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/cliente/?Id=10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"cliente",
+						""
+					],
+					"query": [
+						{
+							"key": "Id",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
