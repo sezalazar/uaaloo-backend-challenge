@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FtxZSFXT83KnfvOo0jdEWxb0iItkGA6IVoSCoOQn3JBrm++CHcDxiqMs/3/5qqc00+SSXkvKpI7MFcobnr6RAQ==",
+  "dgSpecHash": "8iF7jC4i5pZzXOUwwjyJdQR4vmJzDTtPo2joAlvwtiAzcx+SPt8m3NmwDUluGXK85KF1bG0IKCyGTKLH/Ij05w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zalaz\\Dropbox\\Programacion\\Projects\\uaaloo\\uaaloo.csproj",
+  "projectFilePath": "C:\\Users\\zalaz\\Dropbox\\Programacion\\Projects\\uaaloo\\backend\\uaaloo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zalaz\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\zalaz\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.0.4\\microsoft.dotnet.platformabstractions.2.0.4.nupkg.sha512",

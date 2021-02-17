@@ -5850,11 +5850,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zalaz\\Dropbox\\Programacion\\Projects\\uaaloo\\uaaloo.csproj",
+      "projectUniqueName": "C:\\Users\\zalaz\\Dropbox\\Programacion\\Projects\\uaaloo\\backend\\uaaloo.csproj",
       "projectName": "uaaloo",
-      "projectPath": "C:\\Users\\zalaz\\Dropbox\\Programacion\\Projects\\uaaloo\\uaaloo.csproj",
+      "projectPath": "C:\\Users\\zalaz\\Dropbox\\Programacion\\Projects\\uaaloo\\backend\\uaaloo.csproj",
       "packagesPath": "C:\\Users\\zalaz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zalaz\\Dropbox\\Programacion\\Projects\\uaaloo\\obj\\",
+      "outputPath": "C:\\Users\\zalaz\\Dropbox\\Programacion\\Projects\\uaaloo\\backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\zalaz\\AppData\\Roaming\\NuGet\\NuGet.Config"

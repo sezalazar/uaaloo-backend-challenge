@@ -19,9 +19,9 @@ namespace uaaloo.Controllers
 
 
         List<Cliente> _oClientes = new List<Cliente>(){
-            new Cliente(){
-                Id=10, Nombre="Umberto", Apellido="Velez", Direccion="Dire"
-            },
+            new Cliente(){Id=10, Nombre="Umberto", Apellido="Velez", Direccion="Av SiempreViva"},
+            new Cliente(){Id=11, Nombre="Zlatan", Apellido="Ibra", Direccion="Milán, Italia"},
+            new Cliente(){Id=13, Nombre="Roberto Gomez", Apellido="Bolaños", Direccion="Vecindad, México"}
         }; 
   
     
