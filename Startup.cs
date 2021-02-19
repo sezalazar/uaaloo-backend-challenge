@@ -11,6 +11,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+// using Newtonsoft.Json.Serialization;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace uaaloo
 {
@@ -30,6 +33,22 @@ namespace uaaloo
             services.AddCors(c =>{
                 c.AddPolicy("AllowOrigin", options=>options.AllowAnyOrigin().AllowAnyHeader());
             });
+
+            //JSON Serializer
+            // services.AddControllersWithViews()
+            //     .AddNewtonsoftJson(options =>
+            //     options.SerializerSetings.ReferenceLoopHandling = Newtonsoft
+            //     .Json.ReferenceLoopHandling.Ignore )
+            //     .AddNewtonsoftJson(OptionsServiceCollectionExtensions => OptionsSeializerSettings.ContractResolver
+            //     = new DefaultContractResolver());
+             services.AddControllers()
+            .AddJsonOptions(options =>
+            {
+            options.JsonSerializerOptions.PropertyNameCaseInsensitive = true;
+            options.JsonSerializerOptions.PropertyNamingPolicy = null;
+            options.JsonSerializerOptions.Converters.Add (new JsonStringEnumConverter ());
+            });  
+
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
